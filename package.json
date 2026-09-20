@@ -1,0 +1,19 @@
+{
+  "name": "commerce-ops-agents",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Autonomous agent crew for print/commerce ops: catalog copy, proof QA, support triage, and a kill switch for agents that do not deliver.",
+  "scripts": {
+    "demo": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
